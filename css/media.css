@@ -1,0 +1,87 @@
+
+@media (min-width: 576px) {
+     p, a{
+        font-size: 14px!important;
+    }
+    .navbar>.container-fluid{
+        justify-content: space-between;
+    }
+    .navbar-brand{
+        width: 300px;
+    }
+    .navbar-brand, h5, h6{
+        font-size: 18px!important;
+    }
+    .navbar, .second{
+        padding-left: 3em;
+        padding-right: 3em;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .card{
+        width: 7.5em;
+    }
+}
+@media (min-width: 768px) {
+    p, a{
+        font-size: 15px!important;
+    }
+     .navbar-brand, h5, h6{
+        font-size: 19px!important;
+    }
+    .navbar, .second{
+        padding-left: 5em;
+        padding-right: 5em;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .card{
+        width: 10em;
+    }
+}
+
+@media (min-width: 992px) {
+    p, a{
+        font-size: 16px!important;
+    }
+    .navbar-brand{
+        width: auto!important;
+    }
+    .navbar, .second{
+        padding-left: 6em;
+        padding-right: 6em;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .navbar-brand, h5, h6{
+        font-size: 20px!important;
+    }
+
+    .card{
+        width: 13em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar-brand, h5, h6{
+        font-size: 25px!important;
+    }
+       p, a{
+        font-size: 20px!important;
+    }
+    .card{
+        width: 15em;
+    }
+    .navbar-brand{
+        width: auto!important;
+    }
+}
+
+@media (min-width: 1400px) { 
+    .card{
+        width: 18em;
+    }
+    .navbar-brand{
+        width: auto!important;
+    }
+}

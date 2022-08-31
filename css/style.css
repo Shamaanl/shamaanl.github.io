@@ -1,0 +1,233 @@
+/* nunito-600 - latin_cyrillic */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/nunito-v24-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/nunito-v24-latin_cyrillic-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+html {
+  box-sizing: border-box; }
+
+*, *::before, *::after {
+  box-sizing: inherit; }
+p,a,h5,h6{
+    font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+}
+p, a{
+        font-size: 10px!important;
+    }
+    .navbar>.container-fluid{
+        justify-content: space-between;
+    }
+    .navbar-brand{
+        width: 100px;
+    }
+    .navbar-brand, h5, h6{
+        font-size: 13px!important;
+    }
+    .navbar, .second{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .card{
+        width:4em;
+    }
+a {
+  text-decoration: none; }
+
+body {
+  overflow-x: hidden;
+  font-family: Sans-Serif;
+  margin: 0;
+}
+.container-fluid{
+    padding: 0!important;
+}
+.navbar-brand{
+        width: auto!important;
+    }
+.navbar-collapse{
+    flex-direction: row-reverse;
+}
+.navbar{
+    padding-left: 4em;
+    padding-right: 4em;
+  background-color: #958ADA!important;
+}
+.navbar-toggler{
+    padding: 0!important;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar a{
+    color: white!important;
+    font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+}
+.dropdown-menu{
+    background-color: #7366c5;
+}
+.dropdown-item:hover{
+    background-color: #aaa0e9;
+}
+.inform{
+    padding: 1em 1em;
+}
+.second {
+  display: grid;
+  margin-left: 4em;
+  margin-right: 4em;
+  margin-top: 2em;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 1em;
+  column-gap: 0em;
+  margin-bottom: 2em; }
+
+.card {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  
+ }
+.card-body{
+    padding: 0.3rem 0.3rem;
+}
+.cent{
+    justify-self: center;
+}
+.right{
+    justify-self: self-end;
+}
+.card h5 {
+  font-size: 25px; }
+.schnow{
+    background-color: #eae8f8;
+    padding-left:4em;
+    padding-right: 4em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+}
+.schnow h6{
+    font-size: 25px;
+}
+.schnow p{
+    margin-top: 1em;
+    font-size: 20px;
+}
+
+.info{
+    font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+    padding: 2em 4em 2em 4em;
+    background-color: #413065;
+    text-decoration:none;
+    color: white;
+    
+}
+.info div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.info div h6{
+    margin-right: 0.3em;
+}
+.info h6{
+    font-size: 25px;
+}
+.info p,a{
+    font-size: 20px;
+}
+.info a{
+    color: #a89bce;
+}
+.site-footer {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  background-color: #958ADA;
+  padding:0;
+  font-size: 15px;
+  line-height: 24px;
+  color: #fff; }
+
+
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5; }
+
+.site-footer hr.small {
+  margin: 20px 0; }
+
+.site-footer p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
+
+.site-footer h6 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  letter-spacing: 2px; }
+
+.site-footer a {
+  color: #fff; }
+
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none; }
+
+.site-footer .social-icons {
+  text-align: right; }
+
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #33353d; }
+
+.copyright-text {
+  margin: 0; }
+
+.table{
+    box-sizing: border-box;
+    border: 1px solid #D3D3D3;
+}
+td,tr{
+    vertical-align: middle;
+    box-sizing: border-box;
+  border: 1px solid #D3D3D3;
+    
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+/*
+.fa {
+  display: inline-block;
+  background-color: #8379C1;
+  height: 2em;
+  width: 2em;
+  border-radius: 50%; }*/
