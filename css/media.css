@@ -19,7 +19,7 @@
         margin-right: 0;
     }
     .card{
-        width: 7.5em;
+        width: 12em;
     }
 }
 @media (min-width: 768px) {
@@ -36,7 +36,7 @@
         margin-right: 0;
     }
     .card{
-        width: 10em;
+        width: 15em;
     }
 }
 
@@ -53,6 +53,16 @@
         margin-left: 0;
         margin-right: 0;
     }
+    .second{
+        grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+    }
+    .card2, .card5{
+    justify-self: center;
+}
+.card3,.card6{
+    justify-self: self-end;
+}
     .navbar-brand, h5, h6{
         font-size: 20px!important;
     }
