@@ -9,7 +9,7 @@
     .navbar-brand{
         width: 300px;
     }
-    .navbar-brand, h5, h6{
+    .navbar-brand, .sec, h5, h6, h4, li, td, tr{
         font-size: 18px!important;
     }
     .navbar, .second, .news{
@@ -26,7 +26,7 @@
     p, a{
         font-size: 15px!important;
     }
-     .navbar-brand, h5, h6{
+     .navbar-brand, .sec, h5, h6, h4, li, td, tr{
         font-size: 19px!important;
     }
     .navbar, .second, .news{
@@ -63,7 +63,7 @@
 .card3,.card6{
     justify-self: self-end;
 }
-    .navbar-brand, h5, h6{
+    .navbar-brand, .sec, h5, h6, h4, li, td, tr{
         font-size: 20px!important;
     }
 
