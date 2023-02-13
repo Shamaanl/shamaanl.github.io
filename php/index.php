@@ -1,3 +1,7 @@
+<?php
+    $filename = 'template.txt';
+    $file = file_get_contents($filename);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,10 +37,10 @@
                 Информация
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="second.html">Для учащихся</a></li>
-            <li><a class="dropdown-item" href="second.html">Для родителей</a></li>
-            <li><a class="dropdown-item" href="second.html">Для сотрудников</a></li>
-            <li><a class="dropdown-item" href="second.html">Прочая информация</a></li> 
+                <li><a class="dropdown-item" href="/html/second.html">Для учащихся</a></li>
+            <li><a class="dropdown-item" href="/html/second.html">Для родителей</a></li>
+            <li><a class="dropdown-item" href="/html/second.html">Для сотрудников</a></li>
+            <li><a class="dropdown-item" href="/html/second.html">Прочая информация</a></li> 
               </ul>
             </li>
           </ul>
@@ -79,62 +83,7 @@
 <div class="news"><h5>Новости</h5></div>
 
 <div class = "second">
-   <div class="card card1">
-      <img src="/img/1sep.png" class="d-block w-100" alt="...">
-    
-      <div class="card-body">
-        <h5 class="card-title">С первым сентября!</h5>
-        <p class="card-text">Наша школа рада снова открыть двери для своих учеников.</p>
-      </div>
-    </div>
-    <div class="card card2">
-      <img src="/img/getVideoPreview.webp" class="d-block w-100" alt="...">
-    
-      <div class="card-body">
-        <h5 class="card-title">Ролик "Край Тосненский".</h5>
-        <p class="card-text">🎬К районному педагогическому совету комитетом образования администрации Тосненского района был подготовлен замечательный ролик "Край Тосненский".
-📽Делимся с вами!</p>
-        <a href="https://vk.com/wall-203674528_302" class="btn btn-primary">Подробнее</a>
-      </div>
-    </div>
-    <div class="card card3">
-      <img src="/img/getVideoPreview%20(1).webp" class="d-block w-100" alt="...">
-    
-      <div class="card-body">
-        <h5 class="card-title">#ЯСдалЕГЭ</h5>
-        <p class="card-text">📚Следующим героем рубрики #ЯСдалЕГЭ стала выпускница школы №3 г.Никольское Тосненского района Карина Кутняк.
-
-Карина сдала ЕГЭ по русскому языку на 96 баллов. Она рассказала о подготовке к экзамену, своих впечатлениями после его сдачи, а также дала советы будущим выпускникам.</p>
-        <a href="https://vk.com/wall-203674528_300" class="btn btn-primary">Подробнее</a>
-      </div>
-    </div>
-    <div class="card card4">
-      <img src="/img/XiD0j5ZHdFg.jpg" class="d-block w-100" alt="...">
-    
-      <div class="card-body">
-        <h5 class="card-title">Всероссийский конкурс соавторов детского движения "Большая перемена"</h5>
-        <p class="card-text">🚀Друзья, МКОУ «Федоровская СОШ» приглашаем вас стать соавторами Российского движения школьников и молодежи!</p>
-        <a href="https://vk.com/wall-203674528_297" class="btn btn-primary">Подробнее</a>
-      </div>
-    </div>
-    <div class="card card5">
-      <img src="/img/ECSllXdinNA.jpg" class="d-block w-100" alt="...">
-    
-      <div class="card-body">
-        <h5 class="card-title">Закрытие смены нашего лагеря</h5>
-        <p class="card-text">Закрытие смены и награждение артистов, спортсменов и художников нашего лагеря. Хороших вам каникул, ребята!😌</p>
-        <a href="https://vk.com/wall-203674528_295" class="btn btn-primary">Подробнее</a>
-      </div>
-    </div>
-    <div class="card card6">
-      <img src="/img/getVideoPreview%20(2).webp" class="d-block w-100" alt="...">
-    
-      <div class="card-body">
-        <h5 class="card-title">Фильм про смену 2022</h5>
-        <p class="card-text"></p>
-        <a href="https://vk.com/wall-203674528_294" class="btn btn-primary">Подробнее</a>
-      </div>
-    </div>
+  <?php echo($file) ?>
 </div>
 
    <div class="schnow">
@@ -154,7 +103,7 @@
   </div>
     <div align="right" class="info">
        <div float = "right"><h6>Информация</h6></div><div><img src="/img/info%20(1).png" style="width: 25px;"></div>
-       <p>Всю прочую информацию вы можете найти по этой <a href="second.html">ссылке</a>.</p>
+       <p>Всю прочую информацию вы можете найти по этой <a href="/html/second.html">ссылке</a>.</p>
     
     </div>
     <footer class="site-footer">
